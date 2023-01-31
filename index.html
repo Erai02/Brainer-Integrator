@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="shortcut icon" href="./assets/images/brainerss.png">
+
+
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar">
@@ -20,7 +22,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container flex-lg-column">
             <a class="mx-lg-auto mb-lg-4" href="#">
-                <span class="h3 fw-bold d-block d-lg-none">Brainer</span>
+                <span class="lang translate h3 fw-bold d-block d-lg-none" key="brain">Brainer</span>
                 <img src="./assets/images/Brainer-new.png" class="d-none d-lg-block" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -31,29 +33,47 @@
                 <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
+                        <a class="lang nav-link" key="Home" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="lang nav-link" key="About" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#feature">Features</a>
+                        <a class="lang nav-link" key="Feature" href="#feature">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#client">Clients</a>
+                        <a class="lang nav-link" key="Solusi" href="#solusi">Solutions</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#faq">FAQ</a>
+                        <a class="lang nav-link" key="Client" href="#client">Clients</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="lang nav-link" key="faq" href="#faq">FAQ</a>
                     </li>
                     <li class="nav-item">
-                        <a id='google_translate_element' class="nav-link" href="#"></a>
+                        <a class="lang nav-link" key="Contact" href="#contact">Contact</a>
                     </li>
-                        <!-- <span class="navbar-nav mr-sm-2" id="google_translate_element"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-globe2" viewBox="0 0 16 16">
-                            <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z"/>
-                          </svg></span> -->
+                    <li class="nav-item" id="select">
+                        <div >
+                            <button  id="pilih" name="languages" key="pilih" class="lang" type="button">
+                                <img class="translate" id="en" src="./assets/images/united-states-of-america.svg" width="30" height="25" alt="">
+                            </button>
+                            <ul class="dropdown" id="bahasa">
+                                <li onclick="update_country(this);">
+                                    <img class="translate" id="en" src="./assets/images/united-states-of-america.svg" width="30" height="25" alt="">
+                                </li> 
+                                <li onclick="update_country(this);">
+                                    <img class="translate" id="id" src="./assets/images/indonesia.svg" width="30" height="25" alt="">
+                                </li> 
+                                <li onclick="update_country(this);">
+                                    <img class="translate" id="jp" src="./assets/images/Flag-Japan.svg" width="30" height="25" alt="">
+                                </li> 
+                                <li onclick="update_country(this);">
+                                    <img class="translate" id="kr" src="./assets/images/korea.svg" width="30" height="25" alt="">
+                                </li> 
+                            </ul>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -69,10 +89,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10">
-                        <h1 class="display-4 fw-bold" data-aos="fade-up">BRAINER <span class="text-brand">SYSTEM</span> INTEGRATOR</h1>
-                        <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">Warehouse Management System</p>
+                        <h1 class="lang display-4 fw-bold" key="home1" data-aos="fade-up">BRAINER <span
+                                class="text-brand">SYSTEM</span> INTEGRATOR</h1>
+                        <p class="lang lead mt-2 mb-4" key="home2" data-aos="fade-up" data-aos-delay="300">
+                            Warehouse Management System</p>
                         <div data-aos="fade-up" data-aos-delay="600">
-                            <a href="#about" class="btn btn-brand me-3">Explore Brainer:)</a>
+                            <a href="#about" key="home3" class="lang  btn btn-brand me-3">Explore Brainer:)</a>
                         </div>
                     </div>
                 </div>
@@ -87,59 +109,65 @@
 
                 <div class="row pb-4" data-aos="fade-up">
                     <div class="col-lg-12">
-                        <h3 class="text-brand">About</h3>
-                        <h5>To design a solution customized to suit your specific requirements, we would start by studying and understanding your underlying and principal objectives. We would then sit down with your operational and IT team to define the functional flows and business processes most suitable to your operations, while also providing the feedback on the best practices in the industries. Based on the agreed functional flows, we would then design and develop a specific supply chain solution, in order to fulfill your business and process requirements.</h5>
+                        <h3 class="lang  text-brand" key="about1">About</h3>
+                        <h5 class="lang " key="about2">About</h5>
                     </div>
                 </div>
 
                 <div class="row gy-4">
-                    <h3 class="text-brand mb-2" data-aos="fade-up" data-aos-delay="300">why should use Brainer System Integrator ?</h3>
-                        <div class="row gy-4">
+                    <h3 class="lang  text-brand mb-2" key="about3" data-aos="fade-up" data-aos-delay="300">why
+                        should use Brainer System Integrator ?</h3>
+                    <div class="row gy-4">
 
-                            <div class="col-6" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-3 rounded-4 shadow-effect">
-                                    <h4><i class="las la-check-circle"></i> Increase Service Level</h4>
-                                </div>
-                            </div>
-
-                            <div class="col-6" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-3 rounded-4 shadow-effect">
-                                    <h4><i class="las la-check-circle"></i> Increase Accuracy</h4>
-                                </div>
-                            </div>
-
-                            <div class="col-6" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-3 rounded-4 shadow-effect">
-                                    <h4><i class="las la-check-circle"></i> Increase Visibility</h4>
-                                </div>
-                            </div>
-
-                            <div class="col-6" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-3 rounded-4 shadow-effect">
-                                    <h4><i class="las la-check-circle"></i> Increase Speed</h4>
-                                </div>
-                            </div>
-
-                            <div class="col-6" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-3 rounded-4 shadow-effect">
-                                    <h4><i class="las la-check-circle"></i> Reduce Operational Cost</h4>
-                                </div>
+                        <div class="col-6" data-aos="fade-up" data-aos-delay="600">
+                            <div class="bg-base p-3 rounded-4 shadow-effect">
+                                <h4 class="lang " key="about4"><i class="las la-check-circle"></i> Increase
+                                    Service Level</h4>
                             </div>
                         </div>
-                    
+
+                        <div class="col-6" data-aos="fade-up" data-aos-delay="600">
+                            <div class="bg-base p-3 rounded-4 shadow-effect">
+                                <h4 class="lang " key="about5"><i class="las la-check-circle"></i> Increase
+                                    Accuracy</h4>
+                            </div>
+                        </div>
+
+                        <div class="col-6" data-aos="fade-up" data-aos-delay="600">
+                            <div class="bg-base p-3 rounded-4 shadow-effect">
+                                <h4 class="lang " key="about6"><i class="las la-check-circle"></i> Increase
+                                    Visibility</h4>
+                            </div>
+                        </div>
+
+                        <div class="col-6" data-aos="fade-up" data-aos-delay="600">
+                            <div class="bg-base p-3 rounded-4 shadow-effect">
+                                <h4 class="lang " key="about7"><i class="las la-check-circle"></i> Increase
+                                    Speed</h4>
+                            </div>
+                        </div>
+
+                        <div class="col-6" data-aos="fade-up" data-aos-delay="600">
+                            <div class="bg-base p-3 rounded-4 shadow-effect">
+                                <h4 class="lang " key="about8"><i class="las la-check-circle"></i> Reduce
+                                    Operational Cost</h4>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
         <!-- //ABOUT -->
 
-        <!-- SERVICES -->
+        <!-- FEATURES -->
         <section id="feature" class="full-height px-lg-5">
             <div class="container">
 
                 <div class="row pb-4" data-aos="fade-up">
                     <div class="col-lg-8">
-                        <h4 class="text-brand">Features</h4>
-                        <h1>Our Features.</h1>
+                        <h4 class="lang  text-brand" key="fitur1">Features</h4>
+                        <h1 class="lang " key="fitur2">Our Features.</h1>
                     </div>
                 </div>
 
@@ -150,8 +178,9 @@
                             <div class="iconbox rounded-4">
                                 <i class="las la-box"></i>
                             </div>
-                            <h5 class="mt-4 mb-2">Inbound</h5>
-                            <p>The process of receiving and storing goods. Goods received can be from production, supplier transfers or returned goods.</p>
+                            <h5 class="lang  mt-4 mb-2" key="fitur3">Inbound</h5>
+                            <p class="lang " key="fitur4">The process of receiving and storing goods. Goods
+                                received can be from production, supplier transfers or returned goods.</p>
                         </div>
                     </div>
 
@@ -160,8 +189,10 @@
                             <div class="iconbox rounded-4">
                                 <i class="las la-archive"></i>
                             </div>
-                            <h5 class="mt-4 mb-2">Inventory</h5>
-                            <p>Displays details and a summary of stock-on-hand and in-transit items. Inventory has a lot of information according to the character of the goods in the warehouse.</p>
+                            <h5 class="lang  mt-4 mb-2" key="fitur5">Inventory</h5>
+                            <p class="lang " key="fitur6">Displays details and a summary of stock-on-hand and
+                                in-transit items. Inventory has a lot of information according to the character of the
+                                goods in the warehouse.</p>
                         </div>
                     </div>
 
@@ -170,8 +201,10 @@
                             <div class="iconbox rounded-4">
                                 <i class="las la-truck"></i>
                             </div>
-                            <h5 class="mt-4 mb-2">Outbound</h5>
-                            <p>Collection individually or based on Batch according to preference. Speed up the process of spending and also the division of labor operators.</p>
+                            <h5 class="lang  mt-4 mb-2" key="fitur7">Outbound</h5>
+                            <p class="lang " key="fitur8">Collection individually or based on Batch according
+                                to preference. Speed up the process of spending and also the division of labor
+                                operators.</p>
                         </div>
                     </div>
 
@@ -180,8 +213,11 @@
                             <div class="iconbox rounded-4">
                                 <i class="las la-qrcode"></i>
                             </div>
-                            <h5 class="mt-4 mb-2">QRCode/Barcode</h5> 
-                            <p>Facilitate real time transactions in the warehouse, quicker and more accurate data capture. It will in turn improve the speed of operations, accuracy of the warehouse transactions, and less human intervention and paper work / documentation</p>
+                            <h5 class="lang  mt-4 mb-2" key="fitur9">QRCode/Barcode</h5>
+                            <p class="lang " key="fitur10">Facilitate real time transactions in the warehouse,
+                                quicker and more accurate data capture. It will in turn improve the speed of operations,
+                                accuracy of the warehouse transactions, and less human intervention and paper work /
+                                documentation</p>
                         </div>
                     </div>
 
@@ -190,8 +226,10 @@
                             <div class="iconbox rounded-4">
                                 <i class="las la-database"></i>
                             </div>
-                            <h5 class="mt-4 mb-2">Integration Capability</h5>
-                            <p>Seamless integration into your back end systems, via different integration methods. Improve the accuracy and reduce the requirement for data entry operator</p>
+                            <h5 class="lang  mt-4 mb-2" key="fitur11">Integration Capability</h5>
+                            <p class="lang " key="fitur12">Seamless integration into your back end systems, via
+                                different integration methods. Improve the accuracy and reduce the requirement for data
+                                entry operator</p>
                         </div>
                     </div>
 
@@ -200,15 +238,47 @@
                             <div class="iconbox rounded-4">
                                 <i class="las la-clipboard-list"></i>
                             </div>
-                            <h5 class="mt-4 mb-2">High Visibility</h5>
-                            <p>Collection individually or based on Batch according to preference. Speed up the process of spending and also the division of labor operators.</p>
+                            <h5 class="lang  mt-4 mb-2" key="fitur13">High Visibility</h5>
+                            <p class="lang " key="fitur14">Collection individually or based on Batch according
+                                to preference. Speed up the process of spending and also the division of labor
+                                operators.</p>
                         </div>
                     </div>
                 </div>
 
             </div>
         </section>
-        <!-- SERVICES -->
+        <!-- FEATURES -->
+
+        <!-- SOLUTIONS -->
+        <section id="solusi" class="full-height px-lg-5">
+            <div class="container">
+
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-12">
+                        <h3 class="lang  text-brand" key="solusi1">Solutions</h3>
+                    </div>
+                </div>
+
+                <div class="row gy-4">
+                    <div class="row gy-4">
+                        <div class="col-6" data-aos="fade-up" data-aos-delay="600">
+                            <div class="bg-base p-3 rounded-4 shadow-effect">
+                                <h4 class="lang"><i class="las la-check-circle"></i> Ailox WMS
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-6" data-aos="fade-up" data-aos-delay="600">
+                            <div class="bg-base p-3 rounded-4 shadow-effect">
+                                <h4 class="lang"><i class="las la-check-circle"></i> Proksi RMS
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SOLUTIONS -->
 
         <!-- CLIENT -->
         <section id="client" class="clientss px-lg-5">
@@ -216,73 +286,73 @@
 
                 <div class="row pb-4" data-aos="fade-up">
                     <div class="col-lg-12">
-                        <h3 class="text-brand">Our Clients</h3>
+                        <h3 class="lang  text-brand" key="client1">Our Clients</h3>
                     </div>
                 </div>
 
                 <div class="row gy-4">
-                        <div class="row gy-4">
-                            <div class="col-xs-6 col-sm-4 col-md-3 col-6" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-logo p-3 rounded-4 shadow-effect">
-                                    <img src="./assets/images/avian-rev.png" alt="">
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-4 col-md-3 col-6" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-logo p-3 rounded-4 shadow-effect">
-                                    <img src="./assets/images/transmarco-rev.png" alt="">
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-4 col-md-3 col-6" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-logo p-3 rounded-4 shadow-effect">
-                                    <img src="./assets/images/onemed-rev.png" alt="">
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-4 col-md-3 col-6" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-logo p-3 rounded-4 shadow-effect">
-                                    <img src="./assets/images/snj-rev.png" alt="">
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-4 col-md-3 col-6" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-logo p-3 rounded-4 shadow-effect">
-                                    <img src="./assets/images/mitra-rev.png" alt="">
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-4 col-md-3 col-6" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-logo p-3 rounded-4 shadow-effect">
-                                    <img src="./assets/images/hpi-rev-1.png" alt="">
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-4 col-md-3 col-6" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-logo p-3 rounded-4 shadow-effect">
-                                    <img src="./assets/images/kiat-rev.png" alt="">
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-4 col-md-3 col-6" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-logo p-3 rounded-4 shadow-effect">
-                                    <img src="./assets/images/vepro-rev.png" alt="">
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-4 col-md-3 col-6" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-logo p-3 rounded-4 shadow-effect">
-                                    <img src="./assets/images/taco-rev.png" alt="">
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-4 col-md-3 col-6" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-logo p-3 rounded-4 shadow-effect">
-                                    <img src="./assets/images/dr-gadget-rev.png" alt="">
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-4 col-md-3 col-6" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-logo p-3 rounded-4 shadow-effect">
-                                    <img src="./assets/images/msm.png" alt="">
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-4 col-md-3 col-6" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-logo p-3 rounded-4 shadow-effect">
-                                    <img src="./assets/images/ihs.png" alt="">
-                                </div>
+                    <div class="row gy-4">
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-6" data-aos="fade-up" data-aos-delay="600">
+                            <div class="bg-logo p-3 rounded-4 shadow-effect">
+                                <img src="./assets/images/avian-rev.png" alt="">
                             </div>
                         </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-6" data-aos="fade-up" data-aos-delay="600">
+                            <div class="bg-logo p-3 rounded-4 shadow-effect">
+                                <img src="./assets/images/transmarco-rev.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-6" data-aos="fade-up" data-aos-delay="600">
+                            <div class="bg-logo p-3 rounded-4 shadow-effect">
+                                <img src="./assets/images/onemed-rev.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-6" data-aos="fade-up" data-aos-delay="600">
+                            <div class="bg-logo p-3 rounded-4 shadow-effect">
+                                <img src="./assets/images/snj-rev.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-6" data-aos="fade-up" data-aos-delay="600">
+                            <div class="bg-logo p-3 rounded-4 shadow-effect">
+                                <img src="./assets/images/mitra-rev.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-6" data-aos="fade-up" data-aos-delay="600">
+                            <div class="bg-logo p-3 rounded-4 shadow-effect">
+                                <img src="./assets/images/hpi-rev-1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-6" data-aos="fade-up" data-aos-delay="600">
+                            <div class="bg-logo p-3 rounded-4 shadow-effect">
+                                <img src="./assets/images/kiat-rev.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-6" data-aos="fade-up" data-aos-delay="600">
+                            <div class="bg-logo p-3 rounded-4 shadow-effect">
+                                <img src="./assets/images/vepro-rev.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-6" data-aos="fade-up" data-aos-delay="600">
+                            <div class="bg-logo p-3 rounded-4 shadow-effect">
+                                <img src="./assets/images/taco-rev.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-6" data-aos="fade-up" data-aos-delay="600">
+                            <div class="bg-logo p-3 rounded-4 shadow-effect">
+                                <img src="./assets/images/dr-gadget-rev.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-6" data-aos="fade-up" data-aos-delay="600">
+                            <div class="bg-logo p-3 rounded-4 shadow-effect">
+                                <img src="./assets/images/msm.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-6" data-aos="fade-up" data-aos-delay="600">
+                            <div class="bg-logo p-3 rounded-4 shadow-effect">
+                                <img src="./assets/images/ihs.png" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -291,57 +361,76 @@
         <!-- FAQ -->
         <section id="faq" class="full-height px-lg-5 mb">
             <div class="container">
-                <h2 class="my-4 text-center text-brand">FAQ</h2>
-                
+                <h2 class="lang  my-4 text-center text-brand" key="faq1">FAQ</h2>
+
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            What industries can use Brainer System Integrator?
-                        </button>
-                      </h2>
-                      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            All industries that have warehouses can and should use a warehouse management system or WMS. Whether it's the manufacturing industry, retail, warehouse rental, 3PL and others.
+                        <h2 class="accordion-header" id="headingOne">
+                            <button key="faq2" class="lang  accordion-button collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                aria-controls="collapseOne">
+                                What industries can use Brainer System Integrator?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="lang  accordion-body" key="faq3">
+                                All industries that have warehouses can and should use a warehouse management system or
+                                WMS. Whether it's the manufacturing industry, retail, warehouse rental, 3PL and others.
+                            </div>
                         </div>
-                      </div>
                     </div>
                     <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            What kind of warehouse can use Brainer System Integrator?
-                        </button>
-                      </h2>
-                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Almost all warehouses can use the Brainer System Integrator. Whether it's a warehouse that has storage using selective racking, double deep, drive-in, single or multi-level floors, open yards and others.
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button key="faq4" class="lang  accordion-button collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                aria-controls="collapseTwo">
+                                What kind of warehouse can use Brainer System Integrator?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="lang  accordion-body" key="faq5">
+                                Almost all warehouses can use the Brainer System Integrator. Whether it's a warehouse
+                                that has storage using selective racking, double deep, drive-in, single or multi-level
+                                floors, open yards and others.
+                            </div>
                         </div>
-                      </div>
                     </div>
                     <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            How long will it take for implementation?
-                        </button>
-                      </h2>
-                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            The implementation time varies, depending on the size of the warehouse, operations, types of goods and several other parameters. But in general, if there are no certain factors, implementation takes 3 (three) months from the Kick-off to Live.
+                        <h2 class="accordion-header" id="headingThree">
+                            <button key="faq6" class="lang  accordion-button collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                aria-controls="collapseThree">
+                                How long will it take for implementation?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="lang  accordion-body" key="faq7">
+                                The implementation time varies, depending on the size of the warehouse, operations,
+                                types of goods and several other parameters. But in general, if there are no certain
+                                factors, implementation takes 3 (three) months from the Kick-off to Live.
+                            </div>
                         </div>
-                      </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingFour">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            What do you need to run Brainer System Integrator?
-                          </button>
+                            <button key="faq8" class="lang  accordion-button collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                                aria-controls="collapseFour">
+                                What do you need to run Brainer System Integrator?
+                            </button>
                         </h2>
-                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                          <div class="accordion-body">
-                            Brainer System Integrator can run in handheld/paperless mode or in paperbased mode. The devices needed are servers, PCs, mobile computing with 1D/2D scanners (android based), barcode printers, access points.
-                          </div>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="lang  accordion-body" key="faq9">
+                                Brainer System Integrator can run in handheld/paperless mode or in paperbased mode. The
+                                devices needed are servers, PCs, mobile computing with 1D/2D scanners (android based),
+                                barcode printers, access points.
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
             </div>
         </section>
@@ -353,8 +442,8 @@
 
                 <div class="row justify-content-center text-center">
                     <div class="col-lg-8 pb-4" data-aos="fade-up">
-                        <h6 class="text-brand">CONTACT</h6>
-                        <h2>More Information Contact Us</h2>
+                        <h6 class="lang text-brand" key="kontak1">CONTACT</h6>
+                        <h2 class="lang " key="kontak2">More Information Contact Us</h2>
                     </div>
 
                     <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
@@ -369,16 +458,21 @@
                                 <input type="text" class="form-control" placeholder="Enter subject">
                             </div>
                             <div class="form-group col-12">
-                                <textarea name="" rows="4" class="form-control" placeholder="Enter your message"></textarea>
+                                <textarea name="" rows="4" class="form-control"
+                                    placeholder="Enter your message"></textarea>
                             </div>
                             <div class="form-group col-12 d-grid">
-                                <button type="submit" class="btn btn-brand">Contact me</button>
+                                <button type="submit" class="lang  btn btn-brand" key="kontak3">Contact
+                                    me</button>
                             </div>
                         </form>
                     </div>
                     <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
                         <div class="row g-lg-3 gy-3 mt-5">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2142374717587!2d106.6211857!3d-6.235466899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fc0f12e09fc1%3A0x29b8b85f3dbf9e16!2sJl.%20Danau%20Klp.%20Dua%20Raya%2C%20Klp.%20Dua%2C%20Kec.%20Klp.%20Dua%2C%20Kabupaten%20Tangerang%2C%20Banten%2015810!5e0!3m2!1sid!2sid!4v1674111812193!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2142374717587!2d106.6211857!3d-6.235466899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fc0f12e09fc1%3A0x29b8b85f3dbf9e16!2sJl.%20Danau%20Klp.%20Dua%20Raya%2C%20Klp.%20Dua%2C%20Kec.%20Klp.%20Dua%2C%20Kabupaten%20Tangerang%2C%20Banten%2015810!5e0!3m2!1sid!2sid!4v1674111812193!5m2!1sid!2sid"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>
@@ -393,7 +487,8 @@
             <div class="container">
                 <div class="row gy-4 justify-content-between">
                     <div class="col-auto">
-                        <p class="mb-0">Designed by <a href="https://www.instagram.com/eraiiinii/" class="fw-bold">Rai</a></p>
+                        <p class="lang  mb-0" key="kaki1">Designed by <a
+                                href="https://www.instagram.com/eraiiinii/" class="fw-bold">Rai</a></p>
                     </div>
                     <div class="col-auto">
                         <div class="social-icons">
@@ -413,19 +508,267 @@
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/aos.js"></script>
     <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+
+    <script>
+        var arrLang = {
+    "en": {
+        "brain": "Brainer",
+        "Home" : "Home",
+        "About": "About",
+        "Feature": "Features",
+        "Solusi": "Solutions",
+        "Client":  "Clients",
+        "faq": "FAQ",
+        "Contact": "Contact",
+        "pilih": "Select Language",
+        "ing": "English",
+        "ind": "Indonesia",
+        "jpn": "Japan",
+        "kor": "Korea",
+        "home1": "BRAINER SYSTEM INTEGRATOR",
+        "home2": "Warehouse Management System",
+        "home3": "Explore Brainer:)",
+        "about1": "About",
+        "about2": "About",
+        "about3": "why should use Brainer System Integrator ?",
+        "about4": "Increase Service Level",
+        "about5": "Increase Accuracy",
+        "about6": "Increase Visibility",
+        "about7": "Increase Speed",
+        "about8": "Reduce Operational Cost",
+        "fitur1" : "Features",
+        "fitur2" : "Our Features.",
+        "fitur3" : "Inbound",
+        "fitur4" : "The process of receiving and storing goods. Goods received can be from production, supplier transfers or returned goods.",
+        "fitur5" : "Inventory",
+        "fitur6" : "Displays details and a summary of stock-on-hand and in-transit items. Inventory has a lot of information according to the character of the goods in the warehouse.",
+        "fitur7" : "Outbound",
+        "fitur8" : "Collection individually or based on Batch according to preference. Speed up the process of spending and also the division of labor operators.",
+        "fitur9" : "QRCode/Barcode",
+        "fitur10" : "Facilitate real time transactions in the warehouse, quicker and more accurate data capture. It will in turn improve the speed of operations, accuracy of the warehouse transactions, and less human intervention and paper work / documentation",
+        "fitur11" : "Integration Capability",
+        "fitur12" : "Seamless integration into your back end systems, via different integration methods. Improve the accuracy and reduce the requirement for data entry operator",
+        "fitur13" : "High Visibility",
+        "fitur14" : "Collection individually or based on Batch according to preference. Speed up the process of spending and also the division of labor operators.",
+        "solusi1": "Solutions",
+        "client1" : "Our client",
+        "faq1" : "FAQ",
+        "faq2" : "What industries can use Brainer System Integrator?",
+        "faq3" : "All industries that have warehouses can and should use a warehouse management system or WMS. Whether it's the manufacturing industry, retail, warehouse rental, 3PL and others.",
+        "faq4" : "What kind of warehouse can use Brainer System Integrator?",
+        "faq5" : "Almost all warehouses can use the Brainer System Integrator. Whether it's a warehouse that has storage using selective racking, double deep, drive-in, single or multi-level floors, open yards and others.",
+        "faq6" : "How long will it take for implementation?",
+        "faq7" : "The implementation time varies, depending on the size of the warehouse, operations, types of goods and several other parameters. But in general, if there are no certain factors, implementation takes 3 (three) months from the Kick-off to Live.",
+        "faq8" : "What do you need to run Brainer System Integrator?",
+        "faq9" : "Brainer System Integrator can run in handheld/paperless mode or in paperbased mode. The devices needed are servers, PCs, mobile computing with 1D/2D scanners (android based), barcode printers, access points.",
+        "kontak1": "CONTACT",
+        "kontak2": "More Information Contact Us",
+    },
+
+    "id": {
+        "brain": "Brainer",
+        "Home" : "Beranda",
+        "About": "Tentang",
+        "Solusi": "Solusi",
+        "Feature": "Fitur",
+        "Client":  "klien",
+        "faq": "FAQ",
+        "Contact": "Kontak",
+        "pilih": "Pilih Bahasa",
+        "ing": "English",
+        "ind": "Indonesia",
+        "jpn": "Japan",
+        "kor": "Korea",
+        "home1": "BRAINER SYSTEM INTEGRATOR",
+        "home2": "Warehouse Management System",
+        "home3": "Jelajahi Brainer:)",
+        "about1": "Tentang",
+        "about2": "Tentang",
+        "about3": "mengapa harus menggunakan Brainer System Integrator ?",
+        "about4": "Meningkatkan Tingkat Layanan",
+        "about5": "Meningkatkan Akurasi",
+        "about6": "Meningkatkan Visibilitas",
+        "about7": "Meningkatkan Speed",
+        "about8": "Mengurangi Biaya Operasional",
+        "fitur1" : "Fitur",
+        "fitur2" : "Fitur Kami.",
+        "fitur3" : "Pemasukan",
+        "fitur4" : "Proses penerimaan dan penyimpanan barang. Barang yang diterima bisa dari hasil produksi, transfer supplier atau barang retur.",
+        "fitur5" : "Inventaris",
+        "fitur6" : "Menampilkan detail dan ringkasan stok barang yang ada dan dalam perjalanan. Persediaan memiliki banyak informasi sesuai dengan karakter barang di gudang.",
+        "fitur7" : "Pengeluaran",
+        "fitur8" : "Koleksi individual atau berdasarkan Batch sesuai preferensi. Mempercepat proses pengeluaran dan juga pembagian tenaga kerja operator.",
+        "fitur9" : "QRCode/Barcode",
+        "fitur10" : "Memfasilitasi transaksi real time di gudang, pengambilan data lebih cepat dan akurat. Hal ini pada gilirannya akan meningkatkan kecepatan operasi, keakuratan transaksi gudang, dan mengurangi campur tangan manusia serta kertas kerja/dokumentasi",
+        "fitur11" : "Kemampuan Integrasi",
+        "fitur12" : "Integrasi mulus ke dalam sistem back end Anda, melalui metode integrasi yang berbeda. Tingkatkan akurasi dan kurangi persyaratan untuk operator entri data",
+        "fitur13" : "Visibilitas tinggi",
+        "fitur14" : "Koleksi individual atau berdasarkan Batch sesuai preferensi. Mempercepat proses pengeluaran dan juga pembagian tenaga kerja operator.",
+        "solusi1": "Solusi",
+        "client1" : "Klien kami",
+        "faq1" : "FAQ",
+        "faq2" : "Industri apa yang dapat menggunakan Brainer System Integrator?",
+        "faq3" : "Semua industri yang memiliki gudang dapat dan harus menggunakan sistem manajemen gudang atau WMS. Baik itu industri manufaktur, retail, sewa gudang, 3PL dan lain-lain.",
+        "faq4" : "Gudang seperti apa yang bisa menggunakan Brainer System Integrator?",
+        "faq5" : "Hampir semua gudang bisa menggunakan Brainer System Integrator. Baik itu gudang yang memiliki penyimpanan dengan menggunakan Selective Racking, Double Deep, Drive-in, Single atau Multi Level Floor, Open Yard dan lain-lain.",
+        "faq6" : "Berapa lama waktu yang dibutuhkan untuk implementasi?",
+        "faq7" : "Waktu pelaksanaannya bervariasi, tergantung dari ukuran gudang, operasional, jenis barang dan beberapa parameter lainnya. Namun secara umum, jika tidak ada faktor tertentu, pelaksanaan membutuhkan waktu 3 (tiga) bulan dari Kick-off hingga Live.",
+        "faq8" : "Apa yang Anda perlukan untuk menjalankan Brainer System Integrator?",
+        "faq9" : "Brainer System Integrator dapat berjalan dalam mode genggam/tanpa kertas atau dalam mode berbasis kertas. Perangkat yang dibutuhkan adalah server, PC, mobile computing dengan scanner 1D/2D (berbasis android), printer barcode, access point.",
+        "kontak1": "KONTAK",
+        "kontak2": "Informasi Lebih Lanjut Hubungi Kami",
+
+    },
+
+    "jp": {
+        "brain": "Brainer",
+        "Home" : "家",
+        "About": "だいたい",
+        "Feature": "特徴",
+        "Solusi": "解決",
+        "Client":  "クライアント",
+        "faq": "FAQ",
+        "Contact": "コンタクト",
+        "pilih": "Select Language",
+        "ing": "English",
+        "ind": "Indonesia",
+        "jpn": "Japan",
+        "kor": "Korea",
+        "home1": "BRAINER SYSTEM INTEGRATOR",
+        "home2": "Warehouse Management System",
+        "home3": "ブレイナーを探索:)",
+        "about1": "だいたい",
+        "about2": "だいたい",
+        "about3": "なぜBrainer System Integratorを使用する必要があるのですか?",
+        "about4": "サービスレベルを上げる",
+        "about5": "精度を上げる",
+        "about6": "視認性を高める",
+        "about7": "速度を上げます",
+        "about8": "運用コストを削減",
+        "fitur1" : "特徴",
+        "fitur2" : "私たちの特徴。",
+        "fitur3" : "インバウンド",
+        "fitur4" : "商品を受け取り、保管するプロセス。 受け取った商品は、生産、サプライヤーの転送、または返品からのものです。",
+        "fitur5" : "在庫",
+        "fitur6" : "手持ち在庫と移動中のアイテムの詳細と概要を表示します。 在庫には、倉庫にある商品の性質に応じた多くの情報があります。",
+        "fitur7" : "アウトバウンド",
+        "fitur8" : "好みに応じて、個別に、またはバッチに基づいて収集します。 支出のプロセスをスピードアップし、オペレーターの分業もスピードアップします。",
+        "fitur9" : "QRCode/Barcode",
+        "fitur10" : "倉庫でのリアルタイムの取引を促進し、より迅速かつ正確なデータ収集を実現します。 これにより、操作の速度、倉庫取引の正確さが向上し、人的介入と事務処理/文書化が減少します。",
+        "fitur11" : "統合機能",
+        "fitur12" : "さまざまな統合方法による、バックエンド システムへのシームレスな統合。 精度を向上させ、データ入力オペレーターの要件を軽減します。",
+        "fitur13" : "高い視認性",
+        "fitur14" : "好みに応じて、個別に、またはバッチに基づいて収集します。 支出のプロセスをスピードアップし、オペレーターの分業もスピードアップします。",
+        "solusi1": "解決",
+        "client1" : "当社のクライアント",
+        "faq1" : "よくある質問",
+        "faq2" : "Brainer System Integrator を使用できる業界は?",
+        "faq3" : "倉庫を持つすべての業界は、倉庫管理システムまたは WMS を使用できますし、使用する必要があります。 製造業、小売業、レンタル倉庫、3PLなど。",
+        "faq4" : "Brainer System Integrator はどのような倉庫で使用できますか?",
+        "faq5" : "ほぼすべての倉庫で Brainer System Integrator を使用できます。 セレクティブ ラック、ダブル ディープ、ドライブイン、シングルまたはマルチレベル フロア、オープン ヤードなどを使用したストレージを備えた倉庫であるかどうか。",
+        "faq6" : "実装にはどのくらいかかりますか？",
+        "faq7" : "実装時間は、倉庫のサイズ、操作、商品の種類、およびその他のいくつかのパラメーターによって異なります。 ただし、一般的には、特定の要因がなければ、実装にはキックオフからライブまで 3 か月かかります。",
+        "faq8" : "Brainer System Integrator を実行するには何が必要ですか?",
+        "faq9" : "Brainer System Integrator は、ハンドヘルド/ペーパーレス モードまたはペーパーベース モードで実行できます。 必要なデバイスは、サーバー、PC、1D/2D スキャナー (Android ベース) を備えたモバイル コンピューティング、バーコード プリンター、アクセス ポイントです。",
+        "kontak1": "コンタクト",
+        "kontak2": "詳細情報 お問い合わせ",
+
+    },
+
+    "kr":{
+        "brain": "Brainer",
+        "Home" : "집",
+        "About": "에 대한",
+        "Feature": "특징",
+        "Solusi": "해결책",
+        "Client":  "클라이언트",
+        "faq": "FAQ",
+        "Contact": "연락하다",
+        "pilih": "Select Language",
+        "ing": "English",
+        "ind": "Indonesia",
+        "jpn": "Japan",
+        "kor": "Korea",
+        "home1": "BRAINER SYSTEM INTEGRATOR",
+        "home2": "Warehouse Management System",
+        "home3": "브레이너를 살펴보세요 :)",
+        "about1": "에 대한",
+        "about2": "에 대한",
+        "about3": "Brainer System Integrator를 사용해야 하는 이유는 무엇입니까?",
+        "about4": "서비스 수준 향상",
+        "about5": "정확도 향상",
+        "about6": "가시성 증가",
+        "about7": "속도 증가",
+        "about8": "운영 비용 절감",
+        "fitur1" : "특징",
+        "fitur2" : "우리의 특징.",
+        "fitur3" : "인바운드",
+        "fitur4" : "물품을 수령하고 보관하는 과정. 수령한 상품은 생산, 공급업체 이전 또는 반품 상품일 수 있습니다.",
+        "fitur5" : "목록",
+        "fitur6" : "현재 재고 및 운송 중인 항목의 세부 정보 및 요약을 표시합니다. 재고는 창고에 있는 상품의 특성에 따라 많은 정보를 가지고 있습니다.",
+        "fitur7" : "배 밖으로",
+        "fitur8" : "선호도에 따라 개별적으로 또는 Batch 기반으로 수집합니다. 지출 프로세스와 노동 운영자의 분할 속도를 높입니다.",
+        "fitur9" : "QRCode/Barcode",
+        "fitur10" : "창고에서 실시간 거래를 촉진하고 더 빠르고 정확한 데이터 캡처. 그러면 운영 속도, 창고 거래의 정확성이 향상되고 사람의 개입과 서류 작업/문서화가 줄어들 것입니다.",
+        "fitur11" : "통합 기능",
+        "fitur12" : "다양한 통합 방법을 통해 백엔드 시스템에 완벽하게 통합됩니다. 정확도를 높이고 데이터 입력 연산자에 대한 요구 사항을 줄입니다.",
+        "fitur13" : "높은 가시성",
+        "fitur14" : "선호도에 따라 개별적으로 또는 Batch 기반으로 수집합니다. 지출 프로세스와 노동 운영자의 분할 속도를 높입니다.",
+        "solusi1": "해결책",
+        "client1" : "우리 고객",
+        "faq1" : "자주하는 질문",
+        "faq2" : "Brainer System Integrator를 사용할 수 있는 산업은 무엇입니까?",
+        "faq3" : "창고가 있는 모든 산업은 창고 관리 시스템 또는 WMS를 사용할 수 있고 사용해야 합니다. 제조업, 소매업, 창고 임대, 3PL 등.",
+        "faq4" : "Brainer System Integrator는 어떤 창고에서 사용할 수 있나요?",
+        "faq5" : "거의 모든 창고에서 Brainer System Integrator를 사용할 수 있습니다. 선택적인 랙킹, 이중 깊이, 드라이브인, 단층 또는 다층 바닥, 열린 마당 등을 사용하는 창고가 있는 창고인지 여부.",
+        "faq6" : "구현하는 데 얼마나 걸립니까?",
+        "faq7" : "구현 시간은 창고의 크기, 작업, 상품 유형 및 기타 여러 매개변수에 따라 다릅니다. 그러나 일반적으로 특정 요인이 없는 경우 구현은 Kick-off에서 Live까지 3개월이 소요됩니다.",
+        "faq8" : "Brainer System Integrator를 실행하려면 무엇이 필요합니까?",
+        "faq9" : "Brainer System Integrator는 핸드헬드/종이 없는 모드 또는 종이 기반 모드에서 실행할 수 있습니다. 필요한 장치는 서버, PC, 1D/2D 스캐너(안드로이드 기반)가 있는 모바일 컴퓨팅, 바코드 프린터, 액세스 포인트입니다.",
+        "kontak1": "연락하다",
+        "kontak2": "추가 정보 문의하기",
+    },
+
+  };
+
+
+        $(function() {
+      $('.translate').click(function() {
+        var lang = $(this).attr('id');
+
+        $('.lang').each(function(index, item) {
+          $(this).text(arrLang[lang][$(this).attr('key')]);
+        });
+      });
+    });
+        
+
+        var country = document.getElementsByName('languages')[0];
+        var cdrop = document.querySelector('#pilih'); 
+
+        function update_country(el){
+        country.value = el.innerText;
+        cdrop.innerHTML = el.innerHTML;
+    };
+    </script>
+
+
     <!-- <script type="text/javascript">
         function googleTranslateElementInit() {
-        new google.translate.TranslateElement({ 
+        new google..TranslateElement({ 
         defaultLanguage: 'en',
         pageLanguage: 'en',
         includedLanguages: 'en,id',
-        layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+        layout: google..TranslateElement.InlineLayout.SIMPLE,
         autoDisplay: false,
         multilanguagePage: true}, 'google_translate_element')
         };
     </script> -->
-        
-    <script> /*<![CDATA[*/
+
+    <!-- <script> /*<![CDATA[*/
         (function() {
             var gtConstEvalStartTime = new Date();
             var c = "Translate",
@@ -797,7 +1140,7 @@
             var z = {};
     
             function _exportMessages() {
-                h("google.translate.m", q)
+                h("google..m", q)
             }
     
             function A(a) {
@@ -869,7 +1212,7 @@
             window.addEventListener && "undefined" == typeof document.readyState && window.addEventListener("DOMContentLoaded", function() {
                 document.readyState = "complete"
             }, !1);
-            if (_isNS('google.translate.Element')) {
+            if (_isNS('google..Element')) {
                 return
             }(function() {
                 var c = _setupNS('google.translate._const');
@@ -907,9 +1250,8 @@
     $(".hover").mouseleave(function() {
         $(this).removeClass("hover")
     });
-    </script>
+    </script> -->
 
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-</body>
-
+    <!-- <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
+    
 </html>
