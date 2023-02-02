@@ -241,7 +241,7 @@ img {
     align-items: center;
 }
 
-#pilih {
+/* #pilih {
     font-size: 1rem;
     line-height: 1.5rem;
     color: white;
@@ -249,7 +249,7 @@ img {
     display: block;
     right: 0;
 
-}
+} */
 
 .translate {
     position: relative;
