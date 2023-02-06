@@ -25,7 +25,7 @@ h1,h2,h3,h4,h5,h6 {
 
 a {
     text-decoration: none;
-    color: var(--color-body);
+    color: var(--color-heading);
     transition: all 0.4s ease;
 }
 
@@ -237,19 +237,20 @@ img {
 
 #select:hover #bahasa {
     display: block;
-    position: relative;
-    align-items: center;
+    position: relative; 
+    /* align-items: center; */
 }
 
-/* #pilih {
+ #pilih {
     font-size: 1rem;
     line-height: 1.5rem;
     color: white;
-    margin-left: 2rem;
+    margin-left: 35px;
     display: block;
     right: 0;
+    align-items: center;
 
-} */
+} 
 
 .translate {
     position: relative;
@@ -257,7 +258,6 @@ img {
     color: white;
     padding-top: 5px;
     padding-bottom: 5px;   
-
 }   
 
 .translate:hover {
@@ -268,7 +268,8 @@ img {
     display: none;
     position: absolute;
     padding-top: 0.75rem;
-    margin-right: 35px;
+    float : left;
+
 }
 
 #bahasa {
