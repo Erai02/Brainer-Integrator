@@ -9,11 +9,12 @@
     --color-brand2: #deff58;
     --sidbar-width: 240px;
     --font-base: "Bai Jamjuree";
+
 }
 
 body {
     background-color: var(--color-base2);
-    color: var(--color-body);
+    /* color: var(--color-body); */
     font-family: var(--font-base), sans-serif;
     top: 0px !important;
 }
@@ -39,6 +40,10 @@ img {
 
 .text-brand {
     color: var(--color-brand);
+}
+
+.fitur-desc {
+    color: var(--color-body);
 }
 
 .bg-base {
@@ -285,3 +290,4 @@ img {
 }
 
 /* LANGUAGE */
+
