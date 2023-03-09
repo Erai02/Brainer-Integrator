@@ -215,6 +215,10 @@ img {
     color: var(--color-body);
 }
 
+.lead {
+    color: var(--color-body);
+}
+
 /* SOCIAL ICONS */
 
 .kaki {

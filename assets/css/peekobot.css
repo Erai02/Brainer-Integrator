@@ -56,7 +56,7 @@
     position: absolute;
     left: -26px;
     top: 6px;
-    background-image: var(--peekobot-avatar);
+    background-image: url("/assets/images/brainerss.png");
     background-color: #FFF;
     background-repeat: no-repeat;
     background-size: 100%;
